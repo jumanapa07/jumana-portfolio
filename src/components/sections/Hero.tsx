@@ -30,14 +30,13 @@ export function Hero() {
         >
           Contact Me
         </Link>
-        <Link
-          href="/resume.pdf"
-          target="_blank"
-          className="rounded-full border border-gray-300 bg-white px-8 py-3 text-sm font-semibold text-gray-700 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300"
-        >
-          View Resume
-        </Link>
-
+       <Link
+  href={siteConfig.links.resume} 
+  target="_blank"
+  className="rounded-full border border-gray-300 bg-white px-8 py-3 text-sm font-semibold text-gray-700 shadow-sm transition-transform hover:-translate-y-1 hover:shadow-md dark:border-gray-700 dark:bg-gray-900 dark:text-gray-300"
+>
+  View Resume
+</Link>
         {/* Social Icons */}
         <div className="flex items-center gap-3 ml-2">
           <Link

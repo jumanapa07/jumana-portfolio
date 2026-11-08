@@ -4,13 +4,14 @@ export const siteConfig = {
   role: "Software Engineer · Backend & Agentic AI",
   description:
     "Software Engineer specializing in backend development and agentic AI engineering. Building scalable APIs and intelligent LLM-powered workflows with Python, FastAPI, and the Microsoft Agentic Framework.",
-  url: "https://jumanapa.vercel.app", // update once deployed
+  url: "https://jumana-portfolio-one.vercel.app/", 
   location: "Doha, Qatar",
   email: "jumanajumi8822@gmail.com",
   phone: "+974 70613720",
   links: {
     github: "https://github.com/jumanapa07",
     linkedin: "https://linkedin.com/in/jumana-pa",
+    resume: "https://drive.google.com/file/d/1Rx6rT7AnEeLK1JDJNNoTuzfQxqZR-sHG/preview", 
   },
   keywords: [
     "Jumana P A",
