@@ -5,7 +5,7 @@ A minimal, modern, and fully responsive personal portfolio built with Next.js, T
 This portfolio highlights my professional experience in backend engineering and agentic AI, featuring independent enterprise projects, collaborative platform contributions, and technical writing.
 
 ## 🚀 Live Demo
-**[https://jumana-portfolio-one.vercel.app/](https://jumanapa.vercel.app)** 
+**[https://jumana-portfolio-one.vercel.app/](https://jumana-portfolio-one.vercel.app/)** 
 
 ## 🛠 Tech Stack
 
