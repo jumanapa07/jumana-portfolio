@@ -5,16 +5,12 @@ export interface SkillGroup {
 
 export const skillGroups: SkillGroup[] = [
   {
-    category: "Languages",
-    items: ["Python", "JavaScript", "SQL", "Java", "C", "PHP"],
-  },
-  {
-    category: "Backend",
+    category: "Backend Development",
     items: [
+      "Python",
       "FastAPI",
       "Django",
       "Flask",
-      "Laravel",
       "REST APIs",
       "WebSockets",
       "Celery",
@@ -22,37 +18,55 @@ export const skillGroups: SkillGroup[] = [
     ],
   },
   {
-    category: "AI & Agentic",
+    category: "AI & Agentic Engineering",
     items: [
-      "Microsoft Agentic Framework",
-      "Autogen",
       "LLM Integration",
+      "Microsoft Agentic Framework",
       "AI Agents",
       "Agentic Workflows",
-      "Prompt Engineering",
       "RAG",
+      "Prompt Engineering",
     ],
   },
   {
-    category: "Document Intelligence",
+    category: "Document Intelligence & Data Processing",
     items: [
       "Google Cloud Document AI",
-      "OCR",
-      "Data Extraction",
       "Microsoft Presidio",
-      "PII Anonymization",
+      "OCR & Data Extraction",
+      "CodeBERT / NLP",
     ],
-  },
-  {
-    category: "Frontend",
-    items: ["HTML", "CSS", "JavaScript", "React"],
   },
   {
     category: "Databases & Search",
-    items: ["PostgreSQL", "MySQL", "Redis", "Elasticsearch"],
+    items: [
+      "PostgreSQL",
+      "Elasticsearch",
+      "Redis",
+      "MySQL",
+      "SQL",
+    ],
   },
   {
-    category: "DevOps & Cloud",
-    items: ["Docker", "Git", "GitHub", "CI/CD", "Linux", "AWS (basic)", "GCP (basic)", "Kubernetes (basic)"],
+    category: "Tools & Infrastructure",
+    items: [
+      "Docker",
+      "Git / GitHub",
+      "Linux",
+      "CI/CD",
+      "AWS (basic practical exposure)",
+      "GCP (practical exposure)",
+    ],
+  },
+  {
+    category: "Other Technologies",
+    items: [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Java",
+      "C",
+      "PHP",
+    ],
   },
 ];

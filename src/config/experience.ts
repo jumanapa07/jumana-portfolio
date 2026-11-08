@@ -2,47 +2,44 @@ export interface Experience {
   company: string;
   role: string;
   period: string;
-  location?: string;
   description: string[];
   tech: string[];
+  url: string;
+  image: string;
 }
 
 export const experiences: Experience[] = [
   {
     company: "Imaginist.ai Techno Solutions Pvt Ltd",
     role: "Software Engineer",
-    period: "Jan 2025 – Present",
+    period: "Jan 2025 – Sep 2026",
     description: [
-      "Developed and maintained backend services and REST APIs using Python, FastAPI, and Django.",
-      "Built agentic AI applications and multi-agent workflows using the Microsoft Agentic Framework and LLMs.",
-      "Developed document intelligence and data-extraction pipelines processing unstructured documents into structured data.",
-      "Integrated Google Cloud Document AI and OCR components for parsing, field extraction, and validation.",
-      "Implemented PII detection and anonymization with Microsoft Presidio.",
-      "Worked with PostgreSQL, Elasticsearch, Redis, Celery, and WebSockets for async processing and search.",
-      "Contributed to frontend (HTML/CSS/JS/React) and CI/CD, code reviews, and debugging.",
+      "Developed backend services, REST APIs and core application components using Python, FastAPI and PostgreSQL.",
+      "Contributed to agentic AI platform development, including agent framework migration, workflow orchestration, dataset modules and LLM integrations.",
+      "Developed AI-powered document processing and extraction workflows, risk analysis capabilities and integrations for enterprise applications.",
     ],
     tech: [
       "Python",
       "FastAPI",
-      "Django",
+      "RAG",
       "Microsoft Agentic Framework",
+      "LLMs",
       "PostgreSQL",
       "Elasticsearch",
-      "Redis",
-      "Celery",
-      "Google Cloud Document AI",
-      "Microsoft Presidio",
-      "React",
     ],
+    url: "https://www.imaginist.ai/",
+    image: "/imaginist.png", 
   },
   {
     company: "Apto Innovations",
     role: "Software Development Intern",
     period: "Oct 2024 – Dec 2024",
     description: [
-      "Contributed to the development of an Event Management Portal using Laravel and MySQL.",
-      "Implemented backend logic, database operations, and application components.",
+      "Contributed to an Event Management Portal using Laravel and MySQL, implementing role-based access for Admin, Organizer and User.",
+      "Developed event management features including event creation, pricing, banner management and seat booking functionality.",
     ],
-    tech: ["Laravel", "MySQL", "PHP"],
+    tech: ["Laravel", "PHP", "MySQL"],
+    url: "https://www.apto.co.in/",
+    image: "/apto.svg", 
   },
 ];
